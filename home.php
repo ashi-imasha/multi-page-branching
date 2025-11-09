@@ -3,33 +3,13 @@
  <head>
  <title>Home</title>
  <style>
- body {
- font-family: Arial;
- background: linear-gradient(135deg, #667eea 0%, #764ba2, 100%);
- color: white;
- text-align: center;
- padding: 50px;
- margin: 0;
- }
- h1 { color: white; }
- .card {
- background: rgba(255,255,255,0.95);
- color: #333;
- padding: 25px;
- border-radius: 15px;
- margin: 20px auto;
- max-width: 600px;
- box-shadow: 0 8px 20px rgba(0,0,0,0.2);
- }
- nav a {
- margin: 0 15px;
- color: white;
- text-decoration: none;
- font-weight: bold;
- font-size: 1.1em;
- text-shadow: 0 1px 2px rgba(0,0,0,0.3);
- }
- nav a:hover { color: #f1c40f; }
+
+ body { font-family: Arial; background: #fef9e7; text-align: center; padding: 50px; }
+ h1 { color: #e67e22; }
+ .card { background: white; padding: 20px; border-radius: 10px; margin: 20px auto; max-width: 600px; box-shadow: 0 4px 8px; rgba(0,0,0,0.1); }
+ nav a { margin: 0 10px; color: #e67e22; text-decoration: none; font-weight: bold; }
+ .highlight { background: #fff3cd; padding: 10px; border-radius: 5px; margin: 15px 0; }
+
  </style>
  </head>
  <body>
@@ -40,8 +20,12 @@
  </nav>
  <div class="card">
  <h1>Welcome Home!</h1>
- <p>This is the <strong>design-update</strong> version.</p>
- <p>Feature: <strong>Gradient Background \& Enhanced Card</strong></p>
+
+ <div class="highlight">
+ <p>Now with <strong>rich content</strong>!</p>
+ </div>
+ <p>Feature: <strong>Highlighted Message</strong962</p>
+
  </div>
  </body>
  </html>
